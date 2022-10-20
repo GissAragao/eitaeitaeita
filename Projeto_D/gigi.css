@@ -1,0 +1,62 @@
+body{ 
+    background-color: hsl(234, 92%, 76%);
+
+}
+
+body, p{    margin: 0px;
+    padding: 10px;
+    list-style: none;
+    font-family:'Crimson Text', serif;
+    font-size: 1.2rem;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(228, 236, 240);
+}
+header{
+    background: #2d2f31;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    gap: 10px;
+}
+.menu li{
+   margin-left: 10px; 
+}
+.h1{
+    text-align: center;
+  
+    
+}
+
+.img{
+
+    margin-top:100px;
+
+}
+.lutar{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+
+} 
+.lutar >div{ 
+    flex: 1 1 200px;
+    margin: 10px;
+
+}
+
+
